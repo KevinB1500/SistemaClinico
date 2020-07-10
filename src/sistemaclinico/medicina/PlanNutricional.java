@@ -10,5 +10,11 @@ package sistemaclinico.medicina;
  * @author HP WORKSTATION
  */
 public class PlanNutricional {
+    protected String descripcion;
+
+    public PlanNutricional(String descripcion) {
+        this.descripcion = descripcion;
+    }
+    
     
 }

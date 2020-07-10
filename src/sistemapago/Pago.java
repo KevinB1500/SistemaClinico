@@ -9,6 +9,6 @@ package sistemapago;
  *
  * @author HP WORKSTATION
  */
-public class Pago {
-    
+public interface Pago {
+    public boolean realizarPago(float monto);
 }

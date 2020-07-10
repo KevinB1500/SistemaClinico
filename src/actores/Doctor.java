@@ -5,10 +5,35 @@
  */
 package actores;
 
+import java.util.Date;
+
 /**
  *
  * @author HP WORKSTATION
  */
-public class Doctor {
+public class Doctor extends Persona{
+    int regDoctor;
+    String especialidad;
+
+    public Doctor(int regDoctor, String especialidad, String usuario, String clave, String nombre, String apellido, String cedula, String direccion, Date fechaNac) {
+        super(usuario, clave, nombre, apellido, cedula, direccion, fechaNac);
+        this.regDoctor = regDoctor;
+        this.especialidad = especialidad;
+    }
     
+    public void recetar(){
+        
+    }
+    
+    public void agregarPlanNut(){
+        
+    }
+    
+    public void imprimirReceta(){
+        
+    }
+    
+    public void registraSecretaria(){
+        
+    }
 }
