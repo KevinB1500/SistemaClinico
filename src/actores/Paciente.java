@@ -7,6 +7,7 @@ package actores;
 
 import java.util.ArrayList;
 import java.util.Date;
+import sistemaclinico.datos.Cita;
 import sistemaclinico.datos.HistoriaClinica;
 import sistemaclinico.medicina.Receta;
 
@@ -18,7 +19,8 @@ public class Paciente extends Persona {
     String email;
     protected ArrayList<Receta> recetas;
     protected ArrayList<HistoriaClinica> historial;
-    
+    protected ArrayList<Cita> citasMedicas;
+            
     public Paciente(String email, String usuario, String clave, String nombre, String apellido, String cedula, String direccion, Date fechaNac) {
         super(usuario, clave, nombre, apellido, cedula, direccion, fechaNac);
         this.email = email;

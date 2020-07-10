@@ -20,8 +20,5 @@ public class Receta {
     public Receta(LocalDateTime fecha) {
         this.fecha = fecha;
     }
-    
-    
-    
-    
+
 }
