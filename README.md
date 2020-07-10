@@ -1,3 +1,3 @@
 # SistemaClinico
 
-![imagen](./taller - Página 1.png)
+![imagen](taller - Página 1.png)
